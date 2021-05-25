@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails'
+gem 'bcrypt'
 gem 'bootstrap-sass'
 gem 'puma'
 gem 'sass-rails'
@@ -10,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
 gem 'rexml'
+gem 'pry-rails'
 
 group :development, :test do
   gem 'sqlite3'
